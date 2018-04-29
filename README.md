@@ -1,6 +1,6 @@
 # Autograd in PyTorch
 
-This is a re-implementation of PyTorch's autograd (`torch.autograd`). 
+## This is a re-implementation of PyTorch's autograd (`torch.autograd`). 
 
 As you know, Pytorch contains 3 major components:
 + `tensor` can be seen as a replacement of `numpy` for both GPU and CPU because it has unified API.
@@ -17,6 +17,8 @@ The reasons why we choose pytorch tensor over numpy array:
 + Pytorch tensor supports GPU.
 + We can easily validate your own autograd function with Pytorch's autograd with the same API.
 + Getting familiar ourselves with Pytorch's API is a big plus for later deep learning project.
+
+Requirement: `pytorch=0.4` or later
 
 ----
 
