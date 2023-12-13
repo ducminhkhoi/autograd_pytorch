@@ -44,10 +44,6 @@ def mul(op1, op2):
     return binary_op(op1, op2, Mul)
 
 
-def add(op1, op2):
-    return binary_op(op1, op2, Add)
-
-
 def sub(op1, op2):
     return binary_op(op1, -1 * op2, Add)
 
